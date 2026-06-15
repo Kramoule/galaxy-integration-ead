@@ -75,7 +75,7 @@ def build(c, output='output', ziparchive=None):
     args = [
         'pip', 'install',
         '-r', tmp.name,
-        '--python-version', '37', # Galaxy requires Python 3.7
+        '--python-version', '313', # Galaxy requires Python 3.13
         '--platform', PLATFORM,
         '--target "{}"'.format(output),
         '--no-compile',
